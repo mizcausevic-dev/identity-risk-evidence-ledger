@@ -1,0 +1,27 @@
+{
+  "snapshots": [
+    {
+      "id": "governed-entra-access",
+      "name": "Governed Entra access",
+      "scope": "IDENTITY_LAYER",
+      "riskStatus": "HEALTHY",
+      "snapshotStatus": "CURRENT",
+      "reviewPath": "roles/reviews/mfa",
+      "owner": "Identity operations lead",
+      "exposedAccountScore": 14,
+      "collectedAt": "2026-05-31T07:00:00Z"
+    },
+    {
+      "id": "governed-service-accounts",
+      "name": "Governed service accounts",
+      "scope": "DIRECTORY_LAYER",
+      "riskStatus": "HEALTHY",
+      "snapshotStatus": "CURRENT",
+      "reviewPath": "lifecycle/service-accounts",
+      "owner": "IAM engineering",
+      "exposedAccountScore": 12,
+      "collectedAt": "2026-05-31T07:00:00Z"
+    }
+  ],
+  "packets": []
+}
